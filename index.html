@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-<!--<script src="javascript.js"></script>-->
+    <script src="javascript.js" defer></script>
     <title>Rock Paper Scissors</title>
 </head>
 <body>
@@ -12,20 +12,20 @@
     <div id="page-content">
         <div id="player-content">
             <h2 id="player-score-display"></h2>
-            <p id="player-current-choice-display"></p>
+            <div id="player-current-choice-display"></div>
             <div id="player-choices-display">
-                <button id="player-rock-choice-display">🪨</button>
-                <button id="player-paper-choice-display">📃</button>
-                <button id="player-scissors-choice-display">✂️</button>
+                <button id="player-rock" class="choice-button">🪨</button>
+                <button id="player-paper" class="choice-button">📃</button>
+                <button id="player-scissors" class="choice-button">✂️</button>
             </div>
         </div>
         <div id="computer-content">
             <h2 id="computer-score-display"></h2>
-            <p id="computer-current-choice-display"></p>
+            <div id="computer-current-choice-display"></div>
             <div id="computer-choices-display">
-                <button id="computer-rock-choice-display">🪨</button>
-                <button id="computer-paper-choice-display">📃</button>
-                <button id="computer-scissors-choice-display">✂️</button>
+                <button id="computer-rock" class="choice-button">🪨</button>
+                <button id="computer-paper" class="choice-button">📃</button>
+                <button id="computer-scissors" class="choice-button">✂️</button>
             </div>
         </div>
     </div>

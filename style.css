@@ -1,0 +1,85 @@
+body{
+    background-color: beige;
+}
+
+#page-title,
+div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#page-title{
+    color: black;
+    font-size: 64px;
+    text-align: center;
+}
+
+#page-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+#player-content,
+#computer-content{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+#player-score-display,
+#computer-score-display{
+    font-size: 48px;
+    text-align: center;
+}
+
+#player-current-choice-display,
+#computer-current-choice-display{
+    width: 120px;
+    height: 120px;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+#player-choices-display,
+#computer-choices-display{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+}
+
+.choice-button{
+    font-size: 60px;
+    width: 90px;
+    height: 90px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-width: 0px;
+    background-color: transparent;
+    border: 4px ridge black;
+    background-color: ivory;
+    border-radius: 8px;
+
+}
+
+#player-choices-display .choice-button{
+    cursor: pointer;
+}
+
+#player-rock,
+#computer-rock{
+    padding-top: 15px;
+}
+
+#player-scissors,
+#computer-scissors{
+    padding-top: 5px;
+}
